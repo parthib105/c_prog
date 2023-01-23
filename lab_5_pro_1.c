@@ -28,7 +28,7 @@ bool isfib(int n)
 void printfib(int num1, int num2)
 {
     int a=0, b=1, c=0, j=0, k=0;
-    for (int i=0; i<(num1+num2+1); ++i)
+    for (int g=0; g<(num1+num2+1); ++g)
     {
         if (c>num2 && c<num1)
         {
